@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pet-cronus
+  description: scaffold applications and manage application parameters
+  tags:
+    - go
+    - website
+  annotations:
+    jenkins.io/github-folder: build-pet-cronus
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-z
+  system: podcast
