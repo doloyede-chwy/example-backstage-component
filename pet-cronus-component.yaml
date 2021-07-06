@@ -7,7 +7,7 @@ metadata:
     - go
     - website
   annotations:
-    'acme.example.com/paas-project-name': hero-demo
+    'jenkins.io/job-slug': hero-demo
 spec:
   type: service
   lifecycle: experimental
